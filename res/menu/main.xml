@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    <item android:id="@+id/action_home"
+          android:icon="@drawable/he"
+          android:title="Home"
+          android:showAsAction="always"
+           />
+    
+    <item android:id="@+id/action_sound"
+          android:icon="@drawable/volume"
+          android:title="Sound"
+          android:showAsAction="always"
+           />
+    
+
+    
+    <item android:id="@+id/action_set"
+          android:icon="@drawable/setting"
+          android:title="Setting"
+          android:showAsAction="always"
+           />
+    
+    <item android:id="@+id/action_help"
+          android:icon="@drawable/help"
+          android:title="help"
+          android:showAsAction="never"
+           />
+    
+    
+
+</menu>

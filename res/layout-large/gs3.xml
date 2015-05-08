@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gs3" >
+
+    <Button
+        android:id="@+id/get_started"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="260dp"
+        android:background="@android:color/transparent"
+        android:text="Press Here"
+        android:textSize="29dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/get_started"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="156dp"
+        android:autoLink="web"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:linksClickable="true"
+        android:text="https://play.google.com/store/apps/details?id=com.google.android.tts"
+        android:textSize="18dp" />
+
+</RelativeLayout>

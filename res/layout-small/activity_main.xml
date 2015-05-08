@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_weight="1.0"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_toi"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="#F79F81"
+        android:textSize="35dp"
+        android:layout_gravity="center"
+        android:text="Times of india" />
+
+    <Button
+        android:id="@+id/btn_ht"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FA5858"
+        android:textSize="35dp"
+        android:layout_weight="1.0"
+        android:text="Hindustan" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_db"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FE2E64"
+        android:layout_weight="1.0"
+        android:textSize="35dp"
+        android:text="Dainik Bhaskar" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_nav"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:background="#6A0888"
+        android:textSize="35dp"
+        android:text="Dainik Jagran" >
+    </Button>
+
+    <Button
+        android:id="@+id/btn_eco"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_weight="1.0"
+        android:layout_height="wrap_content"
+        android:background="#0B4C5F"
+        android:textSize="35dp"
+        android:text="Economics Times" >
+    </Button>
+
+</LinearLayout>

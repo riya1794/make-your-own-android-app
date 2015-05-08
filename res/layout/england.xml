@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="2"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btneng2"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btneng1"
+        android:background="#CCFFCC"
+        android:text="Daily Mirror" />
+
+    <Button
+        android:id="@+id/btneng1"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#0B4C5F"
+        android:text="BBC News" />
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.epaper"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name="com.example.epaper.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="StartActivity"></activity>
+        <activity android:name="Login"></activity>
+        <activity android:name="Signup"></activity>
+        <activity android:name="LoginData"></activity>
+        <activity android:name="Reset_pass"></activity>
+        <activity android:name="forgot"></activity>
+        <activity android:name="australians"></activity>
+        <activity android:name="englands"></activity>
+        <activity android:name="US"></activity>
+        <activity android:name="Readdb"></activity>
+         <activity android:name="readGerman1"></activity>
+        <activity android:name="readDailyMirror"></activity>
+        <activity android:name="readBBCNews"></activity>
+        <activity android:name="readSyndneyMorning"></activity>
+        <activity android:name="readTheAustrlian"></activity>
+        <activity android:name="readAge"></activity>
+        <activity android:name="ReadTOI"></activity>
+        <activity android:name="tut1"></activity>
+        <activity android:name="tut2"></activity>
+        <activity android:name="tut3"></activity>
+        <activity android:name="about"></activity>
+        <activity android:name="MainActivity"></activity>
+        <activity android:name="help"></activity>
+        <activity android:name="readGuaradian"></activity>
+        <activity android:name="Readeco"></activity>
+        <activity android:name="ReadNewyork"></activity>
+        <activity android:name="Readht"></activity>
+        <activity android:name="Readdj"></activity>
+        <activity android:name="Readh"></activity>
+        
+    </application>
+
+</manifest>

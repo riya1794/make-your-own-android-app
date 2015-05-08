@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         style="@style/Text"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="Choose Your Country"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageButton
+        android:id="@+id/imageBtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/indiabst" />
+
+    <ImageButton
+        android:id="@+id/imageBtn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageBtn2"
+        android:layout_toRightOf="@+id/imageBtn1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/us" />
+
+    <ImageButton
+        android:id="@+id/imageBtn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageBtn2"
+        android:layout_toRightOf="@+id/imageBtn2"
+        android:background="@android:color/transparent"
+        android:src="@drawable/england" />
+
+    <ImageButton
+        android:id="@+id/imageBtn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageBtn1"
+        android:layout_toLeftOf="@+id/imageBtn1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/aus" />
+
+</RelativeLayout>

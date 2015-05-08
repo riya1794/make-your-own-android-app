@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="logo_color" >#FFFF0F</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="yellow">#CCCC33</color>
+    <color name="dark_green">#00FF00</color>
+   
+    <color name="sky">#40E0D0</color>
+    <color name="violet">#990066</color>
+    <color name="light_green">#66FF33</color>
+    <color name="main_area">#201D18</color>
+    <color name="button_color">#707070 </color>
+    <color name="best_button">#383838 </color>
+    <color name="equal_button">#c69800</color>
+    <color name="back_green">#00393a</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#0F0F0F</color>
+    <color name="edt_pressed">#99CBFF</color>
+	<color name="edt_focused">#ffffff</color>
+	<color name="edt_default">#000000</color>
+	<color name="fb_color">#3b5998</color>
+	<color name="twitter_color">#F5F8FA</color>
+	<color name="red">#ff0000</color>
+    <color name="green">#00ff00</color>
+</resources>
